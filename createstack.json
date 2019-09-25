@@ -1,6 +1,4 @@
-/**template only has resources
-*stack creates logical resources that creates a physical resource
-*/
+
 {
     "Resources" : {
 
