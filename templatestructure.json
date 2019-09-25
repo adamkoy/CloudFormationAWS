@@ -1,0 +1,34 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+// This is optional - future proffing the product if the fails.
+  "Description" : "this template does XXXX",
+// Provide description for template - it is optional - it needs to follow the format version on the top
+
+  "Metadata" : {
+// is another component - can control how the information is presented to the user.
+  },
+
+  "Parameters" : {
+// Define information - defaults specify value for a Parameters or used for automation - size of instances
+  },
+
+  "Mappings" : {
+//Parameter for environment to employ into - include data -
+  },
+
+  "Conditions" : {
+// control whether certain resources are created based on a num of values- reproduction or test
+  },
+
+  "Transform" : {
+// Used for serverless applications - optional
+  },
+
+  "Resources" : {
+// man - to create resources - has a type - 
+  },
+
+  "Outputs" : {
+// optional allows you to return values once the stack is complete -
+  }
+}

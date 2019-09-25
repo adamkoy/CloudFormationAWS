@@ -1,0 +1,12 @@
+/**template only has resources
+*stack creates logical resources that creates a physical resource
+*/
+{
+    "Resources" : {
+
+      "catpics" : {
+        "Type" "AWS::S3::Bucket"
+
+      }
+    }
+}
